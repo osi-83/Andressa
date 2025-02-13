@@ -5,6 +5,7 @@ body {
 }
 
 .container {
+    display: flex-box;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
@@ -160,8 +161,8 @@ body {
     }
 
     .gallery-item {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
     }
 }
 
@@ -179,11 +180,11 @@ body {
     }
 
     .gallery {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     .gallery-item {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: 150px;
     }
 }
