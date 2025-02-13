@@ -25,6 +25,7 @@ body {
     padding: 10px;
     text-align: center;
     position: relative;
+
 }
 
 .header .logo {
@@ -82,7 +83,7 @@ body {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     justify-content: center;
 }
@@ -144,8 +145,9 @@ body {
 }
 
 @media (max-width: 768px) {
+       
     .hero {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
 
     .hero .title {
