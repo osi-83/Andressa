@@ -1,0 +1,94 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+.header {
+    background-color: #333;
+    color: #f3eded;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header .logo {
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px;
+}
+
+.header .contact {
+    font-size: 30px;
+    margin: 0;
+}
+
+.btn-contato {
+    background-color: #007bff;
+    /* cor azul */
+    color: #ffffff;
+    /* cor branca */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.btn-contato:hover {
+    background-color: #0056b3;
+    /* cor azul escuro */
+}
+
+.hero {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+.hero .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    margin: 0;
+}
