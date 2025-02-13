@@ -1,0 +1,77 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f2f2f2; /* adicionado cor de fundo */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header .contact {
+    font-size: 18px;
+    margin: 0;
+}
+
+.hero {
+    background-color: #f7f7f7;
+    padding: 40px;
+}
+
+.hero .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(155, 127, 255); /* adicionado cor de fundo */
+    width: 100%; /* adicionado largura */
+    height: auto; /* adicionado altura */
+}
+
+.gallery-item {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+
+.footer .copyright {
+    font-size: 14px;
+    margin: 0;
+}
