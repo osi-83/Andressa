@@ -24,13 +24,14 @@ body {
     color: #f3eded;
     padding: 10px;
     text-align: center;
+    clear: both;
     position: relative;
 
 }
 
 .header .logo {
     font-family: sans-serif;
-    font-size: 46px;
+    font-size: auto;
     font-weight: bold;
     margin: 0;
     padding: 10px;
@@ -82,15 +83,15 @@ body {
 }
 
 .gallery {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flexbox;   
+    grid-template-columns: repeat(3, 2fr);
     grid-gap: 10px;
     justify-content: center;
 }
 
 .gallery-item {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -163,12 +164,18 @@ body {
     }
 
     .gallery-item {
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
 }
 
 @media (max-width: 480px) {
+    .logo{
+        background-color: red;
+        font-size-adjust: ;
+
+    }
+    
     .hero {
         grid-template-columns: 1fr;
     }
@@ -178,7 +185,7 @@ body {
     }
 
     .hero .description {
-        grid-column: 1;
+        grid-column: 1fr;
     }
 
     .gallery {
@@ -186,7 +193,7 @@ body {
     }
 
     .gallery-item {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
     }
 }
